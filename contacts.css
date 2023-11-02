@@ -1,0 +1,145 @@
+*
+{
+     padding:0;
+     margin: 0%;
+     box-sizing: border-box;
+}
+body
+{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: serif;
+}
+.menubar
+{
+    background:rgb(0, 0, 0);
+    text-align: center;
+    padding: 1%;
+}
+.menubar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: aliceblue;
+}
+.menubar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menubar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.menubar ul li:hover
+{
+    background: #700000;
+    border-radius: 3px;
+    border-width: 3%;
+
+}
+.menubar .fa
+{
+    margin-right: 8px;
+}
+.container
+{
+
+    width: 100px;
+    height: 100vh;
+    padding: 0 8%;
+}
+.container h1
+{
+
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+}
+.container h1::after
+{
+    content: '';
+    background: #ffffff;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+p
+{
+        position: fixed;
+        font-size: 18px;
+        background-color: rgb(0, 0, 0);
+        border: 4px solid #700000;
+        color: #ffffff;
+        text-align: center;
+        position: fixed;
+        padding:3%;
+        top: 37%;
+        left:38%;
+}
+div img
+   {
+       width: 60px;
+       height: 60px;
+       border: 3px solid rgb(255, 255, 255);
+       border-radius: 13px;
+       box-shadow: 4px 7px 7px 0px #000000;
+       cursor: pointer;
+       margin: 10px;
+       transition: 400ms;
+   }
+div img:hover
+   {
+       filter: grayscale(1);
+       transform: scale(1.03);
+   }
+
+.soc a
+   {
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    margin: 13rem auto 0 auto;
+    
+}
+.soc1 a
+   {
+
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    margin: 13rem auto 0 auto;
+   }
+.soc2 a
+   {
+   
+    position: absolute;
+    top: 35%;
+    left: 47%;
+    margin: 13rem auto 0 auto;
+   }
+
+
+.soc3 a
+{
+ position: absolute;
+ top: 35%;
+ left: 52%;
+ margin: 13rem auto 0 auto;
+}
+.soc4 a
+{
+
+ position: absolute;
+ top: 35%;
+ left: 57%;
+ margin: 13rem auto 0 auto;
+}

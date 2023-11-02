@@ -1,0 +1,97 @@
+*
+{
+     padding:0;
+     margin: 0%;
+     box-sizing: border-box;
+}
+body
+{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: serif;
+}
+.menubar
+{
+    background:rgb(0, 0, 0);
+    text-align: center;
+    padding: 1%;
+}
+.menubar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: aliceblue;
+}
+.menubar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menubar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.menubar ul li:hover
+{
+    background: #700000;
+    border-radius: 3px;
+    border-width: 3%;
+
+}
+.menubar .fa
+{
+    margin-right: 8px;
+}
+p
+{
+   border: 2px solid #070000;
+   color:#8d0000;
+   background-color: rgb(255, 255, 255);
+   font-family: myfontt;
+   font-size: 130%;
+   position: absolute;
+   width: 40%;
+   text-align: center;
+   margin: 0 auto;
+   top:16%;
+   left: 30%;
+   padding: 10px;
+}
+table, tr, td
+{
+    margin-top: 10%;
+    width:100%;
+    border:2px solid rgb(88, 0, 0);
+    background-color: rgb(231, 222, 222);
+}
+#back
+{
+
+    border:2px solid #700000;
+    background-color: #000000;
+    color: white;
+    font-size: 120%;
+    position: absolute;
+    width: fit-content;
+    text-align: center;
+    margin-left: 5rem;
+    top:80%;
+    padding: 10px;
+}
+
+#next
+{
+    border:2px solid #700000;
+    background-color: #000000;
+    color: white;
+    font-size: 120%;
+    position: absolute;
+    width: fit-content;
+    text-align: center;
+    margin-left: 78rem;
+    top:80%;
+    padding: 10px;
+}

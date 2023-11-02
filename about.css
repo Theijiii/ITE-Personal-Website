@@ -1,0 +1,123 @@
+*
+{
+     padding:0;
+     margin: 0%;
+     box-sizing: border-box;
+}
+body
+{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: serif;
+}
+.menubar
+{
+    background:rgb(0, 0, 0);
+    text-align: center;
+    padding: 1%;
+}
+.menubar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: aliceblue;
+}
+.menubar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menubar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.menubar ul li:hover
+{
+    background: #700000;
+    border-radius: 3px;
+    border-width: 3%;
+
+}
+.menubar .fa
+{
+    margin-right: 8px;
+
+}
+#motto
+{
+   border: 2px solid #070000;
+   color:#8d0000;
+   background-color: rgb(255, 255, 255);
+   font-family: myfontt;
+   font-size: 130%;
+   position: absolute;
+   width: 40%;
+   text-align: center;
+   margin: 0 auto;
+   top:16%;
+   left: 30%;
+   padding: 10px;
+}
+.hello
+{
+    position:fixed;
+    top: 24%;
+    width: 300px;
+    left: 42%;
+    text-align: center;
+    object-fit: cover;
+    border: 2px solid #000000;
+    border-radius: 50%;
+ }
+#name
+{
+   color: #ffffff;
+   background-color: #700000;
+   border-top: 5px solid rgb(255, 255, 255);
+   border-left:5px solid rgb(255, 255, 253) ;
+   border-right: 5px solid beige;
+   font-family: serif;
+   position: absolute;
+   font-size: 220%;
+   width: 50%;
+   text-align: center;
+   margin: 0 auto;
+   top:64%;
+   left:25%;
+   padding: 10px;
+}
+#future
+{
+    color:#ffffff;
+    background-color: #000000;
+    font-family:  georgia;
+    font-size: 270%;
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    top: 71%;
+    left: 25%;
+    padding: 10px;
+    border-right: 5px solid #700000;
+    border-left: 5px solid #700000;
+ }
+#school
+{
+   color:#ffffff;
+   background-color:#700000;
+   font-family: serif;
+   font-size: 110%;
+   position: absolute;
+   width: 50%;
+   text-align: center;
+   margin: 0 auto;
+   top:79%;
+   left: 25%;
+   padding: 10px;
+   border:5px solid #ffffff;
+
+}
