@@ -57,19 +57,19 @@ p
    text-align: center;
    margin: 0 auto;
    top:16%;
-   left: 30%;
+   left: 29%;
    padding: 10px;
 }
 
 div img
    {
-       width: 400px;
-       height: 300px;
+       width: 700px;
+       height: 500px;
        border: 3px solid rgb(0, 0, 0);
        border-radius: 13px;
        box-shadow: 4px 7px 7px 0px #42001c;
        cursor: pointer;
-       margin: 10px;
+       margin: 8rem auto 0 26%;
        transition: 400ms;
    }
    div img:hover
@@ -78,23 +78,21 @@ div img
        transform: scale(1.03);
    }
 
-.proj a
+.cert a
    {
     position: absolute;
     left: 5%;
     margin: 13rem auto 0 auto;
 }
-.proj1 a
+.cert1 a
    {
 
     position: absolute;
-    left: 38%;
     margin: 13rem auto 0 auto;
    }
-.proj2 a
+.cert2 a
    {
    
     position: absolute;
-    left: 70%;
     margin: 13rem auto 0 auto;
    }
